@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "920921638420",
+    "project_id": "mypfeproject-fea8d",
+    "storage_bucket": "mypfeproject-fea8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920921638420:android:baad434e1eacfdf3620901",
+        "android_client_info": {
+          "package_name": "com.example.eshopbackend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWpmfirmDIyK2YTIbfPZRYfDLirw_VNek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920921638420:android:7e062280e5593b52620901",
+        "android_client_info": {
+          "package_name": "com.example.piscine_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWpmfirmDIyK2YTIbfPZRYfDLirw_VNek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
