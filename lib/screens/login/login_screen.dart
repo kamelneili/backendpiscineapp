@@ -57,7 +57,7 @@ class LoginScreen extends StatelessWidget {
               CustomButton(
 
                   //
-                  title: 'LogIn',
+                  title: 'se connecter',
                   onTap: () async {
                     //
                     await context.read<LoginCubit>().logInWithCredentials();

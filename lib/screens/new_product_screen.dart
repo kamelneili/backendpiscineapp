@@ -66,7 +66,7 @@ class NewProductScreen extends StatelessWidget {
                       TextFormField(
                         controller: nameController,
                         decoration: const InputDecoration(
-                          labelText: 'Title',
+                          labelText: 'Titre',
                         ),
                       ),
                       TextFormField(

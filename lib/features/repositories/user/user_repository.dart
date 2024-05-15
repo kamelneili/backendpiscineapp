@@ -26,6 +26,20 @@ class UserRepository extends BaseUserRepository {
     }
   }
 
+//get order client
+  @override
+  Stream<User> getOrderUser(String uid) {
+    print('Getting user data from Cloud Firestore');
+    return _firebaseFirestore
+        .collection('users')
+        .doc(uid)
+        .snapshots()
+        .map((snap) {
+      return User.fromSnapshot(snap);
+    });
+  }
+
+//
   @override
   Stream<User> getUser(String userId) {
     print('Getting user data from Cloud Firestore');

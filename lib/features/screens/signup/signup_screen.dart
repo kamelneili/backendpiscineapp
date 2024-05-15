@@ -101,7 +101,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     TextFormField(
                       controller: name,
                       decoration: const InputDecoration(
-                        labelText: 'Full name',
+                        labelText: 'Nom',
                       ),
                       validator: (value) {
                         if (value!.isEmpty) {
@@ -137,7 +137,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     TextFormField(
                       controller: city,
                       decoration: const InputDecoration(
-                        labelText: 'City',
+                        labelText: 'vile',
                       ),
                       validator: (value) {
                         if (value!.isEmpty) {
@@ -155,7 +155,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     TextFormField(
                       controller: adress,
                       decoration: const InputDecoration(
-                        labelText: 'Adress',
+                        labelText: 'Adresse',
                       ),
                       validator: (value) {
                         if (value!.isEmpty) {

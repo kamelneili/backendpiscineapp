@@ -1,3 +1,4 @@
+import 'package:eshopbackend/blocs/profile/profile_bloc.dart';
 import 'package:eshopbackend/features/blocs/user/user_bloc.dart';
 import 'package:eshopbackend/features/blocs/user/user_event.dart';
 import 'package:eshopbackend/features/screens/signup/signup_screen.dart';
@@ -37,10 +38,11 @@ class HomeScreen extends StatelessWidget {
                     Get.to(() => const CartScreen());
                   },
                   child: const Card(
+                    color: Color.fromARGB(255, 33, 173, 243),
                     child: Center(
                         child: Text('Gérer  Clients',
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ))),
                   ),
@@ -55,10 +57,11 @@ class HomeScreen extends StatelessWidget {
                     Get.to(() => const CoachScreen());
                   },
                   child: const Card(
+                    color: Color.fromARGB(255, 33, 173, 243),
                     child: Center(
                         child: Text('Gérer coachs',
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ))),
                   ),
@@ -73,10 +76,11 @@ class HomeScreen extends StatelessWidget {
                     Get.to(() => OrdersScreen());
                   },
                   child: const Card(
+                    color: Color.fromARGB(255, 33, 173, 243),
                     child: Center(
                         child: Text('Gérer réservations',
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ))),
                   ),
@@ -95,10 +99,11 @@ class HomeScreen extends StatelessWidget {
                     Get.to(() => ActualitesScreen());
                   },
                   child: const Card(
+                    color: Color.fromARGB(255, 33, 173, 243),
                     child: Center(
-                        child: Text('Gérer piscine',
+                        child: Text('Gérer actualités',
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ))),
                   ),

@@ -100,7 +100,11 @@ class ProductCard extends StatelessWidget {
                               },
                               child: Container(
                                   alignment: Alignment.center,
-                                  child: const Text("Modifier")),
+                                  child: const Text(
+                                    "Modifier",
+                                    style: TextStyle(
+                                        fontSize: 16, color: Colors.blue),
+                                  )),
                             ),
                             InkWell(
                               onTap: () async {
@@ -118,7 +122,11 @@ class ProductCard extends StatelessWidget {
                               },
                               child: Container(
                                   alignment: Alignment.center,
-                                  child: const Text("Supprimer")),
+                                  child: const Text(
+                                    "Supprimer",
+                                    style: TextStyle(
+                                        fontSize: 16, color: Colors.red),
+                                  )),
                             ),
                           ],
                         )

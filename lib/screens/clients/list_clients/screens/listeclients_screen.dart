@@ -52,7 +52,7 @@ class _CartScreenState extends State<CartScreen> {
                     padding: const EdgeInsets.all(10.0),
                     child: Row(
                       children: [
-                        const Text("Add new Client",
+                        const Text("Ajouter Client",
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,

@@ -10,7 +10,7 @@ class User extends Equatable {
   final String zipCode;
   final String? imageUrl;
   final String genre;
-  final String specialite;
+  final String? specialite;
 
   const User({
     this.id,
@@ -74,7 +74,7 @@ class User extends Equatable {
       'zipCode': zipCode,
       //   'imageUrl': imageUrl,
       'genre': genre,
-      'specialite': specialite
+      // 'specialite': specialite
     };
   }
 

@@ -55,7 +55,7 @@ class _CartCoachScreenState extends State<CartCoachScreen> {
                       child: Center(
                         child: Row(
                           children: [
-                            const Text("Add new Coach",
+                            const Text("Ajouter Coach",
                                 style: TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,

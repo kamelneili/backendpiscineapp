@@ -2,6 +2,7 @@
 
 import 'package:eshopbackend/app_router.dart';
 import 'package:eshopbackend/blocs/cubits/login/login_cubit.dart';
+import 'package:eshopbackend/blocs/profile/profile_bloc.dart';
 import 'package:eshopbackend/features/blocs/auth/auth_bloc.dart';
 import 'package:eshopbackend/features/blocs/cubits/signup/signup_cubit.dart';
 import 'package:eshopbackend/features/blocs/user/user_bloc.dart';
@@ -99,6 +100,11 @@ class MyApp extends StatelessWidget {
                   ActualiteBloc(actualiteRepository: ActualiteRepository())
                     ..add(const LoadActualite()),
             ),
+            BlocProvider(
+                create: (context) => ProfileBloc(
+                      authBloc: BlocProvider.of<AuthBloc>(context),
+                      userRepository: context.read<UserRepository>(),
+                    )),
           ],
           child: GetMaterialApp(
               debugShowCheckedModeBanner: false,
